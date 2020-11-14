@@ -23,5 +23,8 @@ ElGamal2.cの改良版．バイナリ法をビット操作で実装．
 【pohlig2.c】  
 pohlig.cの改良版．素因数分解をポインタを用いて実装．
 
+【samoa.c】  
+schmidt-samoa暗号をc言語で簡易実装．
+
 
 ## 参考にしたサイト  
