@@ -24,7 +24,13 @@ DLPからのアプローチ．Pohlig-Hellmanアルゴリズムを用いてfullse
 pohlig.cの改良版．素因数分解をポインタを用いて実装．
 
 【samoa.c】  
-schmidt-samoa暗号をc言語で簡易実装．
+schmidt-samoa暗号をC言語で簡易実装．  
+
+【samoa2.c】  
+schmidt-samoa暗号をGMPを用いて実装．鍵（素数のペア）生成の処理も．  
+  
+【samoaCTF.c】  
+schmidt-samoa暗号に対して，N，d，cが分かっているときに，pqと平文mを推測する処理．過去のCTFの出題から．
 
 
 ## 参考にしたサイト  
